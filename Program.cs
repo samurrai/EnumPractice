@@ -14,6 +14,7 @@ namespace EnumPractice
             employee.Name = "Ruslan";
             employee.Vacancy = Vacancies.Boss;
             employee.Salary = int.MaxValue;
+            employee.EmploymentDate = new int[3];
             employee.EmploymentDate[0] = 19;
             employee.EmploymentDate[1] = 02;
             employee.EmploymentDate[2] = 2019;
